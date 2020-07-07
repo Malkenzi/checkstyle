@@ -17,7 +17,7 @@ public class FileUtils {
     public static List<File> findJavaFiles(String inputFolderName) {
         List<File> files = new ArrayList<>();
         try {
-            files = Files.find(Paths.get(inputFolderName),
+            files = Files.find(Paths.get(inputFolderName.replaceAll(":","")),
                     Integer.MAX_VALUE,
                     (path, basicFileAttributes) -> path.toFile().getName().matches(".*.java"))
                     .map(Path::toFile)
