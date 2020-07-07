@@ -1,4 +1,4 @@
-# Upraveno Martynem :)
+# Upraveno Martynem :) 2
 
 # Checkstyle - Java zápočtový test
 
