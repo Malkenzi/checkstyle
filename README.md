@@ -1,3 +1,5 @@
+# Upraveno Martynem :)
+
 # Checkstyle - Java zápočtový test
 
 ## Popis
